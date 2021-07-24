@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    font-size: 2rem;
+    color: brown;
+    margin: 0.2rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.encabezadoLogo {
+    width: 200px;
+}
+
+.encabezadoMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    margin-right: 1rem;
+    
+}
+
+.encabezadoMenu>li {
+background-color: #ad1929;
+padding: 0.4rem;
+margin: 0.2rem;
+border-radius: 10px;
+
+}
+
+.encabezadoMenu>li>a {
+    font-size: 1.2rem;
+    color: cornsilk;
+}
+.zocalo {
+    background-color: rgb(122, 117, 117);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.zocaloNavRedes {
+    display: flex;
+    flex-direction: row;
+}
+
+.zocaloContacto {
+    display: flex;
+    flex-direction: row;
+    
+}
+.zocaloContacto>h4 {
+    margin: 0.7rem;
+    font-weight: 300;
+}
+
+.zocaloUp > i {
+    font-size: 3rem;
+}
+
+/* contenido de bs */
+
+/* .contenedorCards {
+    display: flex;
+    justify-content: center;
+}  */
+
+.card {
+    margin: 3rem 1rem;
+}
+
+.btn {
+    background-color: brown;
+    border-color: rgb(95, 1, 1);
+}
+
+.btn:hover{
+    background-color: rgb(255, 154, 154);
+    border-color: rgb(95, 1, 1);
+}
+
+.btn:visited {
+    background-color: brown;
+    border-color: rgb(95, 1, 1);
+}
+
+.btn:active {
+    background-color:brown;
+    border-color: rgb(95, 1, 1);
+}
+
+
+
+.contenedorForm {
+display: flex;
+justify-content: center;
+}
+
+/* BOX CONOCENOS */
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  height: 300px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* FIN DE BOX CONOCENOS */
+
+/*SECTOR CONTACTO*/
+
+.contenido {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+  
+.tarjeta-contacto {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+.tarjeta-contacto > * {
+    padding: 1em;
+}
+  
+.contacto-form {
+    background: #222222;
+}
+.contacto-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contacto-form form .bloque {
+    grid-column: 1 / 3;
+}
+.contacto-form form div {
+    margin: 0;
+    padding: 1em;
+}
+.contacto-form form button,
+.contacto-form form input,
+.contacto-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid #da1929;
+}
+.contacto-form form button {
+    background: rgb(151, 34, 13);
+    color: #000;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.contacto-form form button:hover,
+.contacto-form form button:focus {
+    background: #da1929;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+  
+.contacto-info {
+    background: #000;
+}
+
+.contacto-form h2 {
+      color: red;
+      text-decoration: underline;
+      font-family: 'Lato', sans-serif;
+}
+.contacto-form label {
+      color: #fff;
+}
+.contacto-info h3 {
+      color: red;
+      text-decoration: underline;
+      font-family: 'Lato', sans-serif;
+}
+.contacto-info li,
+.contacto-info p {
+      color: #fff;
+}
+.contacto-info h3,
+.contacto-info ul,
+.contacto-info div {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.contacto-info ul {
+    list-style: none;
+    padding: 0;
+}
+.contacto-info ul li {
+    padding: .3em;
+}
+  
+@media (min-width: 700px) {
+    .tarjeta-contacto {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+  
+    .tarjeta-contacto > * {
+        padding: 2em;
+    }
+  
+    .contacto-info h3,
+    .contacto-info ul,
+    .contacto-info div {
+        padding: 1em;
+        text-align: left;
+    }
+}
+/* FIN CONTACTO */
