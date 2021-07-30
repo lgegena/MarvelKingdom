@@ -119,12 +119,11 @@
   }
 }
 .card {
-  margin: 3rem 2rem;
+  margin: 3rem 1rem;
 }
 
 .contenedorCards {
   margin: 10%;
-  width: max-content !important;
 }
 
 * {
@@ -274,6 +273,20 @@ h4 {
   #barra_lateral {
     width: 30%;
   }
+}
+.globo {
+  position: fixed !important;
+  width: 60px !important;
+  height: 57px !important;
+  bottom: 72px !important;
+  right: 10px !important;
+  background-color: #01B32B !important;
+  color: #FFF !important;
+  border-radius: 50px !important;
+  text-align: center !important;
+  font-size: 34px !important;
+  box-shadow: 2px 2px 3px #999 !important;
+  z-index: 6 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
